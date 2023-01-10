@@ -1,5 +1,6 @@
+{{ $player := index $.Site.Data .Page.Params.player_name }}
+
 <div class="general_info block">
-    {{ $player := index $.Site.Data .Page.Params.player_name }}
     <h1>{{ $player.name}}</h1>
     <h3>Level {{ $player.level}} {{ $player.class }}</h3>
     <h3>{{ $player.background}}</h3>

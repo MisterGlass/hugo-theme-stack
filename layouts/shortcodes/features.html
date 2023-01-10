@@ -1,5 +1,6 @@
+{{ $player := index $.Site.Data .Page.Params.player_name }}
+
 <div class="features">
-    {{ $player := index $.Site.Data .Page.Params.player_name }}
     {{ range $index, $feature := $player.features }}
         <div class="feature"><a href="{{ $feature.link }}"><h3>{{ $feature.name }}</h3></a> <span>{{ $feature.description }}</span></div> 
     {{ end }}
