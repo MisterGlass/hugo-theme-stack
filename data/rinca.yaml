@@ -1,0 +1,402 @@
+name: Rinca
+level: 5
+class: Shepherd Druid
+background:
+race: Rock Gnome
+alignment: Chaotic Good
+proficiency_bonus: +3
+armor_class: 11
+initiative: 0
+speed: 30'
+max_hp: 35
+hit_dice: 5d8
+personality: Quirky and up for fun but serious about protecting wildlife. Less than perfect memory
+ideals: Believes all life has a purpose and demands respect
+bonds: Strong ties to animals/nature
+flaws: Known to play "tricks" on people he dislikes, "tricks" which may or may not be harmful 
+languages:
+  - name: Common
+    notes: Via race
+
+  - name: Druidic
+    notes: Via class
+
+  - name: Gnomish
+    notes: Via race
+
+  - name: Sylvan
+    notes: Via class trait Speech of the woods
+proficiencies:
+  - name: Clubs
+    notes:
+
+  - name: Daggers
+    notes:
+
+  - name: Darts
+    notes:
+
+  - name: Javelins
+    notes:
+
+  - name: Maces
+    notes:
+
+  - name: Quarterstaffs
+    notes:
+
+  - name: Scimitars
+    notes:
+
+  - name: Sickles
+    notes:
+
+  - name: Slings
+    notes:
+
+  - name: Spears
+    notes:
+
+  - name: Light Armor
+    notes:
+
+  - name: Medium Armor
+    notes:
+
+  - name: Shields
+    notes:
+
+  - name: Tinker's Tools
+    notes:
+
+  - name: Herbalism Kit
+    notes:
+
+items:
+  - name: Scimitar
+    description: 
+    link:
+    notes:
+
+  - name: Wooden Shield
+    description: 
+    link:
+    notes:
+
+  - name: Leather Armor
+    description: 
+    link:
+    notes:
+
+  - name: Explorers Pack
+    description: 
+    link:
+    notes:
+
+  - name: Druidic Focus
+    description: 
+    link:
+    notes:
+
+  - name: Tinker's tools
+    description: 
+    link:
+    notes:
+
+  - name: Boots of striding & springing
+    link: https://roll20.net/compendium/dnd5e/Boots%20of%20Striding%20and%20Springing#content
+    notes:
+
+  - name: Herbalism kit
+    link:
+    notes:
+
+  - name: Creepy Doll
+    link:
+    notes:
+
+  - name: Magic wood
+    link:
+    notes:
+
+ability_scores:
+  - name: Strength
+    value: 8
+    notes:
+
+  - name: Dexterity
+    value: 10
+    notes:
+
+  - name: Constitution
+    value: 15
+    notes:
+
+  - name: Intelligence
+    value: 16
+    notes:
+
+  - name: Wisdom
+    value: 18
+    notes:
+
+  - name: Charisma
+    value: 12
+    notes:
+
+saving_throws:
+  - name: Strength
+    value: -1
+    notes:
+
+  - name: Dexterity
+    value: 0
+    notes:
+
+  - name: Constitution
+    value: +2
+    notes:
+
+  - name: Intelligence
+    value: +6
+    notes: Proficient
+
+  - name: Wisdom
+    value: +7
+    notes: Proficient
+
+  - name: Charisma
+    value: +1
+    notes:
+
+skills:
+  - name: Acrobatics
+    value: 0
+    notes:
+
+  - name: Animal Handling
+    value: +7
+    notes: Proficient
+
+  - name: Arcana
+    value: +3
+    notes:
+
+  - name: Athletics
+    value: -1
+    notes:
+
+  - name: Deception
+    value: +1
+    notes:
+
+  - name: History
+    value: +3
+    notes:
+
+  - name: Insight
+    value: +4
+    notes:
+
+  - name: Intimidation
+    value: +1
+    notes:
+
+  - name: Investigation
+    value: +3
+    notes:
+
+  - name: Medecine
+    value: +4
+    notes:
+
+  - name: Nature
+    value: +3
+    notes:
+
+  - name: Perception
+    value: +7
+    notes: Proficient
+
+  - name: Performance
+    value: +1
+    notes:
+
+  - name: Persuasion
+    value: +1
+    notes:
+
+  - name: Religion
+    value: +3
+    notes:
+
+  - name: Sleight of Hand
+    value: -1
+    notes:
+
+  - name: Stealth
+    value: -1
+    notes:
+
+  - name: Survival
+    value: +4
+    notes:
+
+features:
+  - name: Gnome Cunning
+    description: You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.
+    link: https://the-dungeon-and-the-dragons.obsidianportal.com/wikis/gnome-cunning
+    notes: 
+  - name: Artificer's Lore
+    description: Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.
+    link: https://app.adventurerscodex.com/explore/traits/artificer's-lore-(rock-gnome).html
+    notes: Via subrace
+  - name: Tinker
+    description: Create clockwork creatures over a long rest
+    link: https://www.5esrd.com/database/feats/tinker/
+    notes: Via subrace
+  - name: Wild Shape
+    description: Magically assume the shape of a beast as an action
+    link: https://www.dndbeyond.com/classes/druid#WildShape-167
+    notes: Via class
+  - name: Spirit Totem
+    description: Magically summon an incorporeal totem as a bonus action
+    link: https://yourdnd.com/item.php?id=156E7FDA-43FF-797F-5C1D-E3891B9AE86D
+    notes: Via subclass
+  - name: Speech of the woods
+    description: Beasts can understand your speech, and you gain the ability to decipher their noises and motions
+    link: https://yourdnd.com/item.php?id=526F03B6-8615-DF83-2373-3891AE2B4572
+    notes: Via subclass
+  - name: DarkVision 60'
+    description: See in the dark
+    link: https://roll20.net/compendium/dnd5e/Monsters#h-Darkvision
+    notes: Via class
+
+spells:
+  - name: Mold Earth
+    level: Cantrip
+    time: 1 Action
+    range: 30 feet
+    components: S
+    duration: 1 hour
+    description:
+    link: https://www.dndbeyond.com/spells/mold-earth
+
+  - name: Produce Flame
+    level: Cantrip
+    time: 1 Action
+    range: Self
+    components: V, S
+    duration: 10 minutes
+    description: 
+    link: https://roll20.net/compendium/dnd5e/Produce%20Flame#h-Produce%20Flame
+
+  - name: 
+    level: Cantrip
+    time: 1 Bonus Action
+    range: touch
+    components: V, S, M (mistletoe, a shamrock leaf, and a club or quarterstaff)
+    duration: 1 minute
+    description:
+    link: https://roll20.net/compendium/dnd5e/Shillelagh#h-Shillelagh
+
+  - name: Absorb Elements
+    level: 1
+    time: Special
+    range: Self
+    components: S
+    duration: 1 round
+    description: 
+    link: https://www.dndbeyond.com/spells/absorb-elements
+
+  - name: Animal Friendship
+    level: 1
+    time: 1 Action
+    range: 30 feet
+    components: V, S, M (a morsel of food)
+    duration: 24 hours
+    description: 
+    link: https://roll20.net/compendium/dnd5e/Spells:Animal%20Friendship/#h-Animal%20Friendship
+
+  - name: Fog Cloud
+    level: 1
+    time: 1 Action
+    range: 120 feet
+    components: V, S
+    duration: Concentration up to 1 hour
+    description: 
+    link: https://roll20.net/compendium/dnd5e/Fog%20Cloud#h-Fog%20Cloud
+
+  - name: Goodberry
+    level: 1
+    time: 1 Action
+    range: Touch
+    components: V, S, M (a sprig of mistletoe)
+    duration: Instantaneous
+    description: 
+    link: https://roll20.net/compendium/dnd5e/Goodberry#h-Goodberry
+
+  - name: Animal Messenger (Ritual)
+    level: 2
+    time: 1 Action
+    range: 30 feet
+    components: V, S, M (a morsel of food)
+    duration: 24 hours
+    description: 
+    link: https://roll20.net/compendium/dnd5e/Animal%20Messenger#h-Animal%20Messenger
+
+  - name: Healing Spirit
+    level: 2
+    time: 1 Bonus Action
+    range: 60 feet
+    components: V, S
+    duration: Concentration up to 1 minute
+    description: 
+    link: http://dnd5e.wikidot.com/spell:healing-spirit
+
+  - name: Locate Animals or Plants (Ritual)
+    level: 2
+    time: 1 Action
+    range: Self
+    components: V, S, M (a bit of fur from a bloodhound)
+    duration: Instantaneous
+    description: 
+    link: https://roll20.net/compendium/dnd5e/Locate%20Animals%20or%20Plants#h-Locate%20Animals%20or%20Plants
+
+  - name: Conjure Animals
+    level: 3
+    time: 1 Action
+    range: 60 feet
+    components: V, S
+    duration: Concentration up to 1 hour
+    description: 
+    link: https://roll20.net/compendium/dnd5e/Conjure%20Animals#h-Conjure%20Animals
+
+  - name: Dispel Magic
+    level: 3
+    time: 1 Action
+    range: 120 feet
+    components: V, S
+    duration: Instantaneous
+    description: 
+    link: https://roll20.net/compendium/dnd5e/Dispel%20Magic#h-Dispel%20Magic
+
+  - name: Sleet Storm
+    level: 3
+    time: 1 Action
+    range: 150 feet
+    components: V, S, M (a pinch of dust and a few drops of water)
+    duration: Concentration up to 1 minute
+    description: 
+    link: https://roll20.net/compendium/dnd5e/Sleet%20Storm#h-Sleet%20Storm
+
+  - name: Blight
+    level: 4
+    time: 1 Action
+    range: 30 feet
+    components: V, S
+    duration: Instantaneous
+    description: target takes 8d8 necrotic damage on a failed constitution save, or half as much damage on a successful one.
+    link: https://roll20.net/compendium/dnd5e/Blight#content
+
+

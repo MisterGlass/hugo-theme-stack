@@ -1,0 +1,7 @@
+{{ $player := index $.Site.Data .Page.Params.player_name }}
+
+<div class="skills">
+    {{ range $index, $skill := $player.skills }}
+        <div class="skill"><h3>{{ $skill.value }} {{ $skill.name }}</h3></div>
+    {{ end }}
+</div>

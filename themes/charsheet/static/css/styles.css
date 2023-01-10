@@ -1,0 +1,19 @@
+.ability_scores .score {
+    border: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+}
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 1024px;
+}
+.main-content .block {
+    width: 336px;
+}

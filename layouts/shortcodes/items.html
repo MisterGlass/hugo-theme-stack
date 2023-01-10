@@ -1,0 +1,6 @@
+<div class="items">
+    {{ $player := index $.Site.Data .Page.Params.player_name }}
+    {{ range $index, $item := $player.items }}
+        {{ $item.name }}, 
+    {{ end }}
+</div>

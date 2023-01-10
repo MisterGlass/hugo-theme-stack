@@ -1,0 +1,10 @@
+{{ $player := index $.Site.Data .Page.Params.player_name }}
+
+<div class="stats block">
+    <h3>Armor Class: {{ $player.armor_class}}</h3>
+    <h3>Initiative: {{ $player.initiative }}</h3>
+    <h3>Speed: {{ $player.speed}}</h3>
+    <h3>Proficiency: {{ $player.proficiency_bonus}}</h3>
+    <h3>HP Max: {{ $player.max_hp}}</h3>
+    <h3>Hit Dice: {{ $player.hit_dice}}</h3>
+</div>

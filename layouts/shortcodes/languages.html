@@ -1,0 +1,6 @@
+<div class="languages">
+    {{ $player := index $.Site.Data .Page.Params.player_name }}
+    {{ range $index, $language := $player.languages }}
+        {{ $language.name }}, 
+    {{ end }}
+</div>

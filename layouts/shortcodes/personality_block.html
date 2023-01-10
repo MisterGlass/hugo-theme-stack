@@ -1,0 +1,8 @@
+{{ $player := index $.Site.Data .Page.Params.player_name }}
+
+<div class="personality block">
+    <h3>{{ $player.personality}}</h3>
+    <h3>{{ $player.ideals}}</h3>
+    <h3>{{ $player.bonds}}</h3>
+    <h3>{{ $player.flaws}}</h3>
+</div>

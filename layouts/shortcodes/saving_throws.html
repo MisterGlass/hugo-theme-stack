@@ -1,0 +1,7 @@
+{{ $player := index $.Site.Data .Page.Params.player_name }}
+
+<div class="saving_throws">
+    {{ range $index, $saving_throw := $player.saving_throws }}
+        <div class="saving_throw"><h3>{{ $saving_throw.value }} {{ $saving_throw.name }}</h3></div>
+    {{ end }}
+</div>
