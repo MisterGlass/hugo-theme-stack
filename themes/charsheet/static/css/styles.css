@@ -1,3 +1,8 @@
+.ability_scores {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
 .ability_scores .score {
     border: black;
     border-width: 2px;
